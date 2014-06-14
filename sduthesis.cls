@@ -240,14 +240,14 @@
 \setcounter{page}{1}
 }
 \newcommand{\maketableofcontents}{%
-\pagenumbering{Roman}
-\tableofcontents
-\ifSDU@opt@double
-\cleardoublepage
-\else
-\clearpage
-\fi
-\pagenumbering{arabic}\setcounter{page}{1}
+    \pagenumbering{Roman}
+    \tableofcontents
+    \ifSDU@opt@double
+        \cleardoublepage
+    \else
+        \clearpage
+    \fi
+    \pagenumbering{arabic}\setcounter{page}{1}
 }
 %------Make------
 \endinput
